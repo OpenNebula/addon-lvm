@@ -10,6 +10,24 @@ It is assumed that the OpenNebula hosts using this datastore will be configured 
 
 ![image0](images/lvm_datastore_detail.png)
 
+## Development
+
+To contribute bug patches or new features, you can use the github Pull Request model. It is assumed that code and documentation are contributed under the Apache License 2.0.
+
+More info:
+* [How to Contribute](http://opennebula.org/addons/contribute/)
+* Support: [OpenNebula user forum](https://forum.opennebula.org/c/support)
+* Development: [OpenNebula developers forum](https://forum.opennebula.org/c/development)
+* Issues Tracking: Github issues (https://github.com/OpenNebula/addon-lvm/issues)
+
+## Authors
+
+* Leader: Javier Fontan (jfontan@opennebula.org)
+
+## Compatibility
+
+This add-on is compatible with OpenNebula >= 4.6.
+
 Requirements
 ------------
 

@@ -102,7 +102,7 @@ copy_files() {
     mkdir -p $DST
 
     for f in $FILES; do
-        do_file src/$f $DST
+        do_file $f $DST
     done
 }
 
@@ -122,7 +122,7 @@ change_ownership() {
     done
 }
 
-cd `dirname $0`/src
+cd `dirname $0`
 
 copy_files "datastore/lvm" "$REMOTES_LOCATION/datastore/"
 copy_files "tm/lvm" "$REMOTES_LOCATION/tm/"
